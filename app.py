@@ -74,6 +74,7 @@ def read():
     pygame.mixer.init()
     pygame.mixer.music.load(audio_file)
     pygame.mixer.music.play()
+    is_playing = True
         
                     
 def pause():
